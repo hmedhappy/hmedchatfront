@@ -1,0 +1,53 @@
+body {
+  overflow-y: hidden;
+}
+* {
+  box-sizing: border-box !important;
+}
+
+.chat-item {
+  background-color: #ff00004d;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  width: 100%;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+
+.chat-footer {
+  background-color: #005abf;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.chat-box {
+  display: block !important;
+  transition: 2s !important;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  padding: 120px 0;
+  height: 100vh;
+  overflow-y: scroll;
+  font-family: 'Akaya Kanadaka', cursive;
+  font-size: 20px;
+}
+.chat-box::-webkit-scrollbar {
+  width: 1em;
+}
+
+.chat-box::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
