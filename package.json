@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.1.10",
     "alert-sound-notify": "^0.0.8",
     "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
     "formidable": "^1.2.2",
     "imagemin": "^7.0.1",
     "imagemin-jpegtran": "^7.0.0",
